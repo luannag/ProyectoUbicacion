@@ -14,7 +14,6 @@ body{
 }
 
 .cabecera img{
-width: 20%;
 margin: 10px 0 10px 0; 
 float: center;
 }
@@ -60,12 +59,7 @@ margin-top: 40px;
 	font-family: Arial;
 }
 
-#Pie p{
-	font-size: 15px;
-}
 
 #Pie a{
 color: white;
 }
-
-
