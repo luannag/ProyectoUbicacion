@@ -72,13 +72,13 @@
                 var msj;
                 switch (error.code) {
                     case error.PERMISSION_DENIED:
-                        msj = "no se ha permitido el acceso a la posición del usuario.";
+                        msj = "No se ha permitido el acceso a la posición del usuario.";
                         break;
                     case error.POSITION_UNAVAILABLE:
-                        msj = "no se ha podido acceder a la información de su posición.";
+                        msj = "No se ha podido acceder a la información de su posición.";
                         break;
                     case error.TIMEOUT:
-                        msj = "el servicio ha tardado demasiado tiempo en responder.";
+                        msj = "El servicio ha tardado demasiado tiempo en responder.";
                         break;
                     default:
                         msj = "Error desconocido.";
@@ -168,10 +168,12 @@
         </script>
 </center>
 
-    <div class="container">
+    <div class="container" style="box-shadow: 5px 5px 8px black, 10px 10px 8px #262626;">
         <center>
-                  <strong>  <h3 style="font-size: 20px;">Distancia en kilómetros </h3> </strong>
-               <strong>    <div class="panel-body" id="distancia" > </strong>
+			<strong> <h3 style="font-size: 20px;"> Nuestra ubicación </h3> </strong>
+		<h3 style="font-size: 15px;"> BeWorking, Heredia, Costa Rica. </h3> 
+                  <strong>  <h2 style="font-size: 20px;"> Distancia en kilómetros </h2> </strong>
+               <div class="panel-body"  id="distancia" > 
                 </div>
         </center>
     </div>
